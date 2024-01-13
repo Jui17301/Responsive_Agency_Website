@@ -5,6 +5,8 @@ import Logo2 from "../assets/Logo2.png"
 import Logo3 from "../assets/Logo3.png"
 import Logo4 from "../assets/Logo4.png"
 import Logo5 from "../assets/Logo5.png"
+import Right from "../assets/Right.png"
+import Symbol from "../assets/Symbol.png"
 
 const Products = () => {
   return (
@@ -33,23 +35,25 @@ const Products = () => {
         <div className='flex flex-col md:flex-row justify-between items-center gap-8'>
           <div className='md:w-1/3'>
         
-
+           <img src={Symbol} alt="" 
+            className='w-9/12 h-8/12'/>
           </div>
           {/* stats */}
         <div className='md:w-2/3 mx-auto'>
           <div>
             <p className='md:w-4/5 text-sm text-neutralGrey mb-8 leading'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, molestiae aperiam. Repellendus amet quod sint ad, et impedit accusantium, provident, magni deserunt eum corrupti rerum?</p>
             <h5 className="text-brandPrimary text-xl font-semibold mb-2">Tim Smith</h5>
-            <p>British Dragon Boat Racing Association</p>
+            <p className='text-base text-neutralGrey mb-8'>British Dragon Boat Racing Association</p>
             <div>
-         <div>
+         <div className='flex items-center gap-8 flex-wrap'>
          <img src={Logo1} alt=""  className='cursor-pointer'/>
           <img src={Logo2} alt=""  className='cursor-pointer'/>
           <img src={Logo3} alt=""  className='cursor-pointer'/>
           <img src={Logo4} alt=""  className='cursor-pointer'/>
           <img src={Logo5} alt=""  className='cursor-pointer'/>
-          <div>
-            <a href="/" className='font-bold text-brandPrimary hover:text-netral-700'>Meet all customers</a>
+          <div className='flex items-center gap-8'>
+            <a href="/" className='font-bold text-brandPrimary hover:text-netral-700'>Meet all customers
+            <img src={Right} alt="" className='inline-block ml-2 w-10 h-10'/></a>
           </div>
          </div>
 
