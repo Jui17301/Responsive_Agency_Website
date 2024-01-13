@@ -6,9 +6,7 @@ import Logo4 from "../assets/Logo4.png"
 import Logo5 from "../assets/Logo5.png"
 import Logo6 from "../assets/Logo6.png"
 import Logo7 from "../assets/Logo7.png"
-import Pic1 from '../assets/Pic1.png'
-import Pic2 from '../assets/Pic2.png'
-import Pic3 from '../assets/Pic3.png'
+
 
 const Services = () => {
   const services =[
@@ -16,19 +14,19 @@ const Services = () => {
       id:1,
       title:"Membership Organisations",
       description:"Our membership management software provides full automation of membership renewals and payments",
-      image:{Pic1}
+      image:"/src/assets/Pic1.png"
     },
     {
       id:2,
       title:"National Associations",
       description:"Our membership management software provides full automation of membership renewals and payments",
-      image:{Pic2}
+      image:"/src/assets/Pic2.png"
     },
     {
       id:3,
       title:"Clubs And Groups",
       description:"Our membership management software provides full automation of membership renewals and payments",
-      image:{Pic3}
+      image:"/src/assets/Pic3.png"
     },
   ]
   return (
