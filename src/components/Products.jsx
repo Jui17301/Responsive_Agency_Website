@@ -1,5 +1,10 @@
 import React from 'react'
 import pana from '../assets/pana.png'
+import Logo1 from "../assets/Logo1.png"
+import Logo2 from "../assets/Logo2.png"
+import Logo3 from "../assets/Logo3.png"
+import Logo4 from "../assets/Logo4.png"
+import Logo5 from "../assets/Logo5.png"
 
 const Products = () => {
   return (
@@ -31,7 +36,28 @@ const Products = () => {
 
           </div>
           {/* stats */}
-         
+        <div className='md:w-2/3 mx-auto'>
+          <div>
+            <p className='md:w-4/5 text-sm text-neutralGrey mb-8 leading'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, molestiae aperiam. Repellendus amet quod sint ad, et impedit accusantium, provident, magni deserunt eum corrupti rerum?</p>
+            <h5 className="text-brandPrimary text-xl font-semibold mb-2">Tim Smith</h5>
+            <p>British Dragon Boat Racing Association</p>
+            <div>
+         <div>
+         <img src={Logo1} alt=""  className='cursor-pointer'/>
+          <img src={Logo2} alt=""  className='cursor-pointer'/>
+          <img src={Logo3} alt=""  className='cursor-pointer'/>
+          <img src={Logo4} alt=""  className='cursor-pointer'/>
+          <img src={Logo5} alt=""  className='cursor-pointer'/>
+          <div>
+            <a href="/" className='font-bold text-brandPrimary hover:text-netral-700'>Meet all customers</a>
+          </div>
+         </div>
+
+            </div>
+          </div>
+
+
+        </div>
          
         </div>
 
