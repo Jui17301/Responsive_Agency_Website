@@ -7,7 +7,7 @@ import About from './components/About'
 import Products from './components/Products'
 import Blog from './components/Blog'
 import Newsletter from './components/Newsletter'
-
+import Footer from './components/Footer'
 const App = () => {
   return (
     <div>
@@ -18,6 +18,7 @@ const App = () => {
       <Products/>
       <Blog/>
       <Newsletter/>
+      <Footer/>
     </div>
   )
 }
